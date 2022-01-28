@@ -1,0 +1,29 @@
+.container{
+    width: 100vw;
+    height: 12vh;
+    background-color: rgba(89, 96, 189, 0.952);
+    
+}
+
+.title { 
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    position: relative;
+    left: 3rem;
+    top: 1rem;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.sub-heading{
+    position: relative;
+    left: 3rem;
+    top: 1.3rem;
+    color: white;
+    /* letter-spacing: 1px; */
+
+}
