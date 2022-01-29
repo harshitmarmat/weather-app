@@ -1,5 +1,4 @@
 * {
-  /* box-sizing: border-box;   */
   margin: 0px;
   padding: 0px;
 }
@@ -7,4 +6,18 @@
 html {
   font-family: 'Noto Sans JP', sans-serif;
   margin: 0;
+}
+
+.error-style {
+  color: red;
+  font-size:  1.1rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.content{
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  margin: auto;
 }

@@ -1,0 +1,33 @@
+.container{
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container h2{
+    color: white;
+    margin: 1.5rem auto 1.5rem auto;
+    text-align: center;
+}
+
+.container ul {
+    width: 70%;
+    background-color: white;
+    border-radius: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.container ul li{
+    height: 2rem;
+    list-style: none;
+    color: black;
+    margin: 0.5rem;
+    border-bottom: 1px solid rgb(59, 57, 57);
+}
+
+.container p{
+    color: white;
+    position: relative;
+    bottom: 0.4rem;
+}
