@@ -1,15 +1,23 @@
+import Card from '../layout/Card';
 import classes from './Display.module.css';
 
-const Display = () => {
+const Display = (props) => {
+    
+    if(!props.showDetail){
+        return '' ;
+    }
+
     return(
-        <section>
-            <h1>City Name</h1>
-            <div>
-                <p>Coldest Weather : </p>
-                <p>Warmest Weather : </p>
-                <p>Current Weather : </p>
+        <Card>
+            <div className={classes.container}>
+                <h1>{props.detail.name}</h1>
+                <div>
+                    <p>Coldest Weather : {props.detail.min_temp}</p>
+                    <p>Warmest Weather : {props.detail.max_temp}</p>
+                    <p>Current Weather : {props.detail.curr_temp}</p>
+                </div>
             </div>
-        </section>
+        </Card>
     )
 }
 

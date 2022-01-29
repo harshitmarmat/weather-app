@@ -1,0 +1,17 @@
+.container{
+    height: 25vh;
+    position: relative;
+    top: 1rem;
+    color: white;
+}
+
+.container h1 {
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.container p{
+    margin-left: 2rem;  
+    margin-top: 1rem; 
+    font-size: 1.2rem; 
+}
