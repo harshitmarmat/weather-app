@@ -1,0 +1,17 @@
+label {
+    color: white;
+    font-size: 1.2rem;
+    left: 2rem;
+    top: 0.5rem;
+    position: relative;
+}
+
+input {
+    border: none;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 1.1rem;
+    left: 4rem;
+    top: 0.5rem;
+    position: relative;
+}

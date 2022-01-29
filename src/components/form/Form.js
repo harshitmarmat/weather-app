@@ -1,11 +1,14 @@
+import Card from '../layout/Card';
 import classes from './Form.module.css';
 
 const Form = () => {
     return(
-        <form>
-            <label>Enter the city name : </label>
-            <input/>
-        </form>
+        <Card>
+            <form>
+                <label className={classes.label}>Enter the city name : </label>
+                <input/>
+            </form>
+        </Card>
     )
 }
 

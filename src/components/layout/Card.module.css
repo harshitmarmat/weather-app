@@ -1,0 +1,9 @@
+.container {
+    width: 40vw;
+    height: 7vh;
+    background-color: rgb(59, 57, 57);
+    margin: auto;
+    border-radius: 0.6rem;
+    margin-top: 2rem;
+    position: relative;
+}

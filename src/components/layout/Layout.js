@@ -6,7 +6,6 @@ const Layout = (props) => {
     return(
         <Fragment>
             <Header />
-            {props.children}
         </Fragment>
     )
 }
